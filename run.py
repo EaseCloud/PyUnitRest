@@ -1,8 +1,9 @@
 #!/usr/bin/python3.5
-import os
 
 import config
 
+from tests.test01 import *
 
-def begin():
-    os.system('mysqldump -h%s -u%s -p%s > ')
+
+if __name__ == '__main__':
+    unittest.main()

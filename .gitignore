@@ -1,6 +1,8 @@
 ### PyUnitRest
 
-/tmp
+.lock
+/tmp/_db_*
+/tmp/.error
 
 
 
